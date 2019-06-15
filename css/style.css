@@ -1,0 +1,51 @@
+/* Change Brand Font */
+.navbar-brand{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+  color: #F0AAB1;
+}
+
+/* Make Header Image Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  border-radius: 0px;
+
+}
+
+/* Header Image Sub-Title */
+.st {
+  font-size: 24px;
+}
+
+/* Change Footer Social Icon Color */
+a {
+  color:  #DC3545;
+}
+a:hover {
+  color: #E994A2;
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width:992px){
+    .custom-nav > li {
+        margin-left: 40px;
+    }
+}
+
+
+@media only screen and (min-width:1220px){
+    .custom-nav > li {
+        margin-left: 100px;
+    }
+}
